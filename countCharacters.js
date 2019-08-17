@@ -4,3 +4,5 @@ function countCharacters(str, count){
     }
     return count;
 }
+
+console.log(countCharacters("pugLifeForever", 0))
