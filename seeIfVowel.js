@@ -5,3 +5,5 @@ function seeIfVowels(char, count){
     }
     return count;
 }
+
+console.log(seeIfVowels("i", 2));
