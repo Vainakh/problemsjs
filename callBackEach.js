@@ -6,3 +6,8 @@ function each(array, cb){
     }
 
 }
+
+
+each([1, 2, 3, 4], function (val) {
+    console.log(val * 2);
+});
