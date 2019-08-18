@@ -15,4 +15,25 @@ function makeXOGrid(rows, amount){
           }
           startWithX = !startWithX;
       }
-    
+      finalArr.push(newRow);
+  }
+  return finalArr;
+  }
+
+
+  console.log(makeXOGrid(1, 4));
+
+  /*/
+  [["X","O","X","O"]]
+  /*/
+
+  console.log(makeXOGrid(3, 2));
+
+  /*/
+  [["X","O"],["X","O"],["X","O"]]
+  /*/
+
+  console.log(makeXOGrid(3, 3));
+  /*/
+  [["X","O","X"],["O","X","O"],["X","O","X"]]
+  /*/
