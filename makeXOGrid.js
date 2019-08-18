@@ -7,4 +7,12 @@ function makeXOGrid(rows, amount){
         let newRow = [];
 
         for (let j = 0; j < amount; j += 1){
-            
+          if(startWithX){
+              newRow.push("X");
+          }
+          else {
+              newRow.push("O");
+          }
+          startWithX = !startWithX;
+      }
+    
