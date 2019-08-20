@@ -4,4 +4,4 @@ function prependToString(string1, string2){
 
 prependToString('awesome', 'very') // 'veryawesome'
 prependToString('world', 'hello ') // 'hello world'
-prependToString('nothing', '') // 'nothing'
+prependToString('nothing', '') // 'nothing'git 
