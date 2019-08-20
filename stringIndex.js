@@ -6,3 +6,6 @@ function stringIndexOf(word, character){
   }
   return -1;
 }
+
+stringIndexOf('awesome', 'e') // 2
+stringIndexOf('awesome', 'z') // -1
