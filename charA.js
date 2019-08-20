@@ -6,3 +6,6 @@ function charAt(string, index){
     return string[index];
   }
 }
+
+console.log(charAt('awesome', 2)); // 'e'
+console.log(charAt('awesome', 12)); // ''
