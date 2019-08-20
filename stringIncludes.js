@@ -7,3 +7,6 @@ function stringIncludes(word, character){
   }
   return false;
 }
+
+console.log(stringIncludes('awesome', 'e')); // true
+stringIncludes('awesome', 'z'); // false
