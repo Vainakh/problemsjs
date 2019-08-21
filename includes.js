@@ -6,3 +6,6 @@ function includes(array, number){
   }
   return false
 }
+includes([1, 2, 3, 4], 4) // true
+includes([1, 2, 3, 4], 14) // false
+includes([], 14) // false
