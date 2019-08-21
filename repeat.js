@@ -11,4 +11,6 @@ function repeat(string, number){
     return newString;
   }
 
-   
+  console.log(repeat('Matt', 3)); // 'MattMattMatt'
+  console.log(repeat('Elie', 2)); // 'ElieElie'
+  console.log(repeat('Michael', 0)); 
