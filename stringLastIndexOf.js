@@ -6,3 +6,5 @@ function stringLastIndexOf(word, character){
   }
   return -1;
 }
+stringLastIndexOf('awesome', 'e'); // 6
+stringLastIndexOf('awesome', 'z'); // -1
