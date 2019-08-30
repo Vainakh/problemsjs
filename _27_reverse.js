@@ -15,3 +15,10 @@ function reverse(array) {
   }
   return array;
 }
+
+console.log(reverse([5, 4, 3, 2, 1])); // [1, 2, 3, 4, 5]
+reverse([]); // []
+
+var arr = [1, 2, 3];
+reverse(arr); // [3, 2, 1]
+arr; // [3, 2, 1]
