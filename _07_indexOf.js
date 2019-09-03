@@ -1,3 +1,9 @@
+Write a function called stringIndexOf, which accepts two strings: the first is a word and the second is a single character.
+
+The function should return the first index in the word at which the character exists or -1 if the character is not found.
+
+Do not use the built in String.indexOf() function!
+
 function indexOf(array, number){
   for (let i = 0; i < array.length; i += 1){
     if(array[i] === number){
