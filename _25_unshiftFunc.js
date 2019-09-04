@@ -1,3 +1,9 @@
+Write a function called unshift which accepts an array and a value and adds the value to the beginning of the array.
+
+This function should return the new length of the array.
+
+Do not use the built in Array.unshift() function!
+
 function unshift(array, value){
    array.splice(0,0, value);
    return array.length;
