@@ -10,3 +10,13 @@ function keys(obj){
   }
   return newArray;
 }
+
+
+var obj = { a: 1, b: 2, c: 3 };
+keys(obj); // ["a", "b", "c"]
+
+var obj2 = { first: 'Matt', last: 'Lane' };
+keys(obj); // ["first", "last"]
+
+var obj3 = {};
+keys(obj); // []
