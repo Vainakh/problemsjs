@@ -3,3 +3,15 @@ Write a function called concat, which accepts an array, and one, two, or three a
 The function returns a new array with all of the remaining parameters joined with the array.
 
 Do not use the built in Array.concat() function!
+
+function concat(...array){
+  let newArray = [];
+
+  for (let i = 0; i < array.length; i += 1){
+    for (let j = 0; j < array[i].length; j += 1){
+
+      newArray.push(array[i][j]);
+    }
+  }
+  return newArray;
+}
