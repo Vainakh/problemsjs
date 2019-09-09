@@ -11,3 +11,12 @@ function values(obj){
   }
   return newArray;
 }
+
+var obj = { a: 1, b: 2, c: 3 };
+values(obj); // [1,2,3]
+
+var obj2 = { first: 'Matt', last: 'Lane', isDogOwner: true };
+values(obj2); // ["Matt", "Lane", true]
+
+var obj3 = {};
+values(obj3); // []
