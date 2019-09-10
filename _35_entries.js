@@ -12,3 +12,13 @@ function entries(obj){
   }
   return newArray;
 }
+var obj = { a: 1, b: 2, c: 3 };
+console.log(entries(obj));
+// [["a",1], ["b",2], ["c",3]]
+
+var obj2 = { first: 'Matt', last: 'Lane', isDogOwner: true };
+console.log(entries(obj2));
+// [["first","Matt"], ["last","Lane"], ["isDogOwner",true]]
+
+var obj3 = {};
+entries(obj3); // []
