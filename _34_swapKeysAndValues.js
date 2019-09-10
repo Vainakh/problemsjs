@@ -15,3 +15,12 @@ function swapKeyAndValue(obj, key){
   }
   return newObj;
 }
+
+var instructor = { name: 'Elie', job: 'Instructor' };
+
+console.log(swapKeyAndValue(instructor, 'name'));
+// {Elie: 'name', job: "Instructor"}
+
+
+console.log(swapKeyAndValue(instructor, 'job'));
+// {name: "Elie", Instructor: 'job'}
