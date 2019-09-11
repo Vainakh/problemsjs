@@ -10,3 +10,11 @@ function every(array, cb){
   }
   return true;
 }
+
+console.log(every([1, 2, 3, 4, 5], function(val) {
+ return val > 0;
+})); // true
+
+console.log(every([1, 2, 3, 4, 5], function(val) {
+ return val < 2;
+})); // false
