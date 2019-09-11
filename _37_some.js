@@ -12,3 +12,11 @@ function some(array, cb){
   }
   return false;
 }
+
+some([1, 2, 3, 4, 5], function(val) {
+ return val > 5;
+}); // false
+
+some([1, 2, 3, 4, 5], function(val) {
+ return val < 2;
+}); // true
