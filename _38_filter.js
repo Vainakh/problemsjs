@@ -15,3 +15,18 @@ function filter(array, cb){
   }
   return newArray;
 }
+
+
+var arr = [1, 2, 3, 4, 5];
+
+console.log(filter(arr, function(val) {
+ return val > 3;
+})); // [4,5]
+
+console.log(filter(['a', 1, '2', 3], function(val) {
+ return typeof val === 'string';
+})); // ["a","2"]
+
+console.log(filter([1, 2, 3, 4, 5], function(val) {
+ return typeof val === 'string';
+})); // []
