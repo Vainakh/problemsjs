@@ -1,3 +1,14 @@
 Given a string of words, your goal is to find the highest scoring word in the string. a is worth 1 point, b is worth 2 points, c is worth 3 points, and so on, all the way up until z, which is worth 26 points. You can assume that strings will consist only of lowercase letters and spaces.
 
 In the event that two words have the same score, return the word that appears first in the string.
+
+function squareEvenNumbers(array){
+  let sum = 0;
+
+  for (let i = 0; i < array.length; i += 1){
+    if(array[i] % 2 === 0){
+      sum += (array[i] * array[i]);
+    }
+  }
+  return sum;
+}
