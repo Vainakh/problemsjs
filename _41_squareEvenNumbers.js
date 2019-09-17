@@ -12,3 +12,7 @@ function squareEvenNumbers(array){
   }
   return sum;
 }
+
+squareEvenNumbers([1, 2, 3, 4, 5]); // 20
+squareEvenNumbers([1, 3, 5, 7]); // 0
+squareEvenNumbers([5, 6, 7]); // 36
