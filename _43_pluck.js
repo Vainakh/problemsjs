@@ -10,3 +10,16 @@ function pluck(array, key){
   }
   return newArray;
 }
+
+
+pluck([
+  { name: "Tim" }, { name: "Matt" }, { name: "Elie" }],
+ 'name'
+)
+// ["Tim", "Matt", "Elie"]
+
+pluck(
+  [{ name: "Tim", isBoatOwner: true }, { name: "Matt", isBoatOwner: false }, { name: "Elie" }],
+ 'isBoatOwner'
+)
+// [true, false, undefined]
