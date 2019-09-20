@@ -5,3 +5,27 @@ The format should be "key = value, key = value".
 Each key/value pair should be separated by a comma and space except for the last pair.
 
 Examples:
+
+function stringFromObject(string){
+  let newString = "";
+  let newArray = Object.keys(string);
+
+  for (let i = 0; i < newArray.length; i += 1){
+    let key = newArray[i];
+    if(i === 0){
+    newString += ( key + " = " + string[key]);
+  } else {
+    newString += (", " + key + " = " + string[key]);
+  }
+  }
+  return newString;
+}
+
+console.log(stringFromObject({ a: 1, b: '2' }));
+// "a = 1, b = 2"
+
+console.log(stringFromObject({ name: 'Elie', job: 'Instructor', isCatOwner: false }));
+// "name = Elie, job = Instructor, isCatOwner = false"
+
+console.log(stringFromObject({}));
+// ""
