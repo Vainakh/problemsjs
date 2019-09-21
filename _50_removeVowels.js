@@ -1,3 +1,18 @@
 Write a function called removeVowels which will accept a string and return a new string with all the vowels removed. You should not consider "y" to be a vowel.
 
 Examples
+
+function removeVowels(string){
+
+  let vowels = "aeiouAEIOU";
+  let removed = "";
+
+  for (let i = 0; i < string.length; i += 1){
+    if(vowels.includes(string[i])){
+      continue;
+    } else {
+      removed += string[i];
+    }
+  }
+  return removed;
+}
