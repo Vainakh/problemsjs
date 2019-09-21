@@ -16,3 +16,9 @@ function removeVowels(string){
   }
   return removed;
 }
+
+removeVowels("Hello!"); // "Hll!"
+removeVowels("Tomatoes"); // "Tmts"
+removeVowels("Reverse Vowels In The String"); // "Rvrs Vwls n Th Strng"
+removeVowels("aeiou"); // ""
+removeVowels("why try, shy fly?"); // "why try, shy fly?"
