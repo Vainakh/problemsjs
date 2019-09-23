@@ -14,3 +14,7 @@ function totalCaps(array){
   }
   return count;
 }
+
+console.log(totalCaps(["AwesomE", "ThIngs", "hAppEning", "HerE"])); // 8
+console.log(totalCaps(["Elie", "Matt", "Tim"])); // 3
+console.log(totalCaps(["hello", "world"])); // 0
