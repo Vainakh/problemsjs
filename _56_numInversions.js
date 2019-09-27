@@ -16,3 +16,17 @@ function numInversions(array){
   }
   return count;
 }
+
+console.log(numInversions([])); // 0
+console.log(numInversions([5])); // 0
+console.log(numInversions([1,2])); // 0
+console.log(numInversions([2,1])); // 1
+console.log(numInversions([1,2,3])); // 0
+console.log(numInversions([1,3,2])); // 1
+console.log(numInversions([3,1,2])); // 2
+console.log(numInversions([3,2,1])); // 3
+console.log(numInversions([5,3,4,1,2])); // 8
+console.log(numInversions([1,1,1,1])); // 0
+console.log(numInversions([2,2,1,1])); // 4
+console.log(numInversions([3,3,3,2,2,1])); // 11
+console.log(numInversions([8, 6, 6, 1, 1, 1, 3, 4, 2])); // 22console.log()
