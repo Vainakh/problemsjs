@@ -27,3 +27,4 @@ console.log(removeDuplicatesFromSorted([2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5
 // 8
 console.log(removeDuplicatesFromSorted([4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]));
 // 2
+console.log(removeDuplicatesFromSorted([1, 2, 3, 4, 5, 6])); // 6
