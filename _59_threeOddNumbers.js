@@ -16,3 +16,5 @@ function threeOddNumbers(array){
   }
   return false;
 }
+
+console.log(threeOddNumbers([1,2,3,4,5])); // true
