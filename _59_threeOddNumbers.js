@@ -19,3 +19,4 @@ function threeOddNumbers(array){
 
 console.log(threeOddNumbers([1,2,3,4,5])); // true
 console.log(threeOddNumbers([0,-2,4,1,9,12,4,1,0])); // true
+console.log(threeOddNumbers([5,2,1])); // false
