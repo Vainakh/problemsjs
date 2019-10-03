@@ -12,3 +12,10 @@ let rangeInArray = function (array, start = 0, end = array.length - 1) {
   }
   return arr;
 };
+
+console.log(rangeInArray([1,2,3,4],0,2)); // 6
+console.log(rangeInArray([1,2,3,4],0,3)); // 10
+console.log(rangeInArray([1,2,3,4],1)); // 9
+console.log(rangeInArray([1,2,3,4])); // 10
+console.log(rangeInArray([1,2,3,4],0,100)); // 10
+console.log(rangeInArray([],0,1)); // 0
