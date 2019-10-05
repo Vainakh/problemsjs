@@ -26,3 +26,4 @@ function sameFrequency(num1, num2){
     }
 
     console.log(sameFrequency(551122, 221515)); // true
+    console.log(sameFrequency(321142, 3212215)); // false
