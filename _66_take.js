@@ -14,3 +14,5 @@ function take(array, optional){
     }
     return newArray;
 }
+
+console.log(take([1, 2, 3])); // [1]
