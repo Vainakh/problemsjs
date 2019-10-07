@@ -32,3 +32,12 @@ function includes(collection, value, index = 0){
         return false;
         }
     }
+
+    console.log(includes([1, 2, 3], 1)); // true
+console.log(includes([1, 2, 3], 1, 2)); // false
+console.log(includes([1, 2, 3], 6)); // false
+console.log(includes({ 'a': 1, 'b': 2 }, 1)); // true
+console.log(includes({ 'a': 1, 'b': 2 }, 'a')); // false
+console.log(includes('abcd', 'b')); // true
+console.log(includes('abcd', 'e')); // false
+console.log(includes('abcd', 'a', 2)); // false
