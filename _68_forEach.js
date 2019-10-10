@@ -9,3 +9,20 @@ function forEach(array, callback){
         callback(array[i], i)
     }
 }
+
+var emptyArr = []
+forEach([1,2,3,4], function(val){
+  emptyArr.push(val*10);
+});
+emptyArr; // [10,20,30,40]
+
+var arr = [1,2,3];
+forEach(arr, function(val, idx){
+  arr[idx] += 5;
+});
+arr; // [6,7,8]
+
+var isUndefined = forEach(["a","b","c"], function(){
+  return "hi";
+});
+isUndefined; // undefined
