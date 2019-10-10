@@ -2,3 +2,10 @@ Write a function called forEach, which accepts an array and a callback. forEach 
 Do not use the built in forEach function, the tests will fail!
 
 Examples:
+
+function forEach(array, callback){
+
+    for (var i = 0; i < array.length; i++) {
+        callback(array[i], i)
+    }
+}
