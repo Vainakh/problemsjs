@@ -19,3 +19,14 @@ var nums = [1, 2, 3, 4];
 var newTotal = map(nums, function (val, idx, array) {
     return val * 10;
 })
+
+console.log(newTotal); // [10,20,30,40]
+console.log(nums); // [1,2,3,4]
+
+console.log(map([1, 2, 3, 4], function (val, idx) {
+    return val + idx;
+})); // [1,3,5,7]
+
+console.log(map(["a", "b", "c"], function (val, idx, arr) {
+    return arr;
+})); // [["a","b","c"],["a","b","c"],["a","b","c"]]
