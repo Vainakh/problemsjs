@@ -1,0 +1,1 @@
+Write a function called filter which accepts an array and a callback. The function should return a new array consisting of elements from the original array that return truthy values when passed into the callback. Also, the original array should not be affected.
