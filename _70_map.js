@@ -13,3 +13,9 @@ function map(array, callback){
     }
     return newArray
 }
+
+var nums = [1, 2, 3, 4];
+
+var newTotal = map(nums, function (val, idx, array) {
+    return val * 10;
+})
