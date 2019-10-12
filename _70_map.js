@@ -4,3 +4,12 @@ Write a function called map which accepts an array and a callback. The function 
 Since map returns a new array, it should not mutate the original array passed into it.
 
 Do not use the built in map function, the tests will fail!
+
+function map(array, callback){
+    let newArray = [];
+
+    for (let i = 0; i < array.length; i += 1){
+        newArray.push(callback(array[i], i, array));
+    }
+    return newArray
+}
