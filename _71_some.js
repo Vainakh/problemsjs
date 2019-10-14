@@ -11,3 +11,21 @@
 }
 
 var arr = [1, 2, 3, 4];
+
+console.log(some(arr, function (val) {
+    return val < 4;
+})); // true
+
+console.log(some(arr, function (val) {
+    return val > 4;
+})); // false
+
+console.log(some(arr, function (val, idx) {
+    return idx > 5;
+})); // false
+
+console.log(some(arr, function (val, idx, arr) {
+    return arr.indexOf(5) > -1;
+})); // false
+
+console.log(arr); // [1,2,3,4]
