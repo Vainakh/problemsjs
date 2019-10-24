@@ -8,3 +8,8 @@ function repeat(string, number){
     }
     return newString;
 }
+
+
+console.log(repeat('*', 3));// => '***'
+console.log(repeat('abc', 2));// => 'abcabc'
+console.log(repeat('abc', 0));// => ''
