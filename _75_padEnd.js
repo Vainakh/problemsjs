@@ -33,3 +33,14 @@ function padEnd(string, number, padding) {
     return newstring.split("").splice(0, number).join("");
     }
 }
+console.log(padEnd('abc', 6)); //  'abc   '
+console.log(padEnd('hi', 10)); // 'hi        '
+console.log(padEnd('hello', 5)); // 'hello'
+console.log(padEnd('hello', 1)); // 'hello'
+console.log(padEnd('abc', 6, 'xyz')); // 'abcxyz'
+console.log(padEnd('hello', 11, ' world')); // 'hello world'
+console.log(padEnd('hello', 5, ' world')); // 'hello';
+console.log(padEnd('abc', 5, 'xyz')); // 'abcxy'
+console.log(padEnd('abc', 10, 'xyz')); // 'abcxyzxyzx'
+console.log(padEnd('hello', 7, ' world')); // 'hello w'
+console.log(padEnd('hello', 25, ' world')); // 'hello world world world w'
