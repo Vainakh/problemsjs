@@ -6,3 +6,30 @@ Padding characters are truncated if there's not enough padding, and are repeated
 If the number is less than the input string length, no padding or truncation occurs; instead, the original string is simply returned.
 
 Examples:
+
+function padEnd(string, number, padding) {
+
+
+    if (number <= string.length) {
+        return string;
+    }
+
+    let padd = [[padding]];
+    let newstring = "";
+
+    for (let i = 0; i <= number; i += 1) {
+        for (let j = 0; j < padd.length; j += 1) {
+
+            if (newstring.length < string.length) {
+                newstring += (string[i] || padding);
+            } else if (newstring.length < number) {
+                newstring += (padd[j] || padding);
+            }
+        }
+    }
+    if (newstring.length < number) {
+        return  newstring + " ".repeat(number - newstring.length)
+    } else {
+    return newstring.split("").splice(0, number).join("");
+    }
+}
