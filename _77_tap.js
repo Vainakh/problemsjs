@@ -1,0 +1,1 @@
+Write a function called tap, which accepts an array and a callback. The callback should be invoked on the array and then the returned value should be the array regardless of what the callback returns.
