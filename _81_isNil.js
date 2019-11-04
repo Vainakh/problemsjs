@@ -6,3 +6,10 @@ function isNil(value){
     }
     return false;
 }
+
+console.log(isNil(null)); // true
+console.log(isNil(NaN)); // false
+console.log(isNil([])); // false
+console.log(isNil(false)); // false
+console.log(isNil(undefined)); // true
+console.log(isNil()); // true
