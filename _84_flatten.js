@@ -12,3 +12,7 @@ function flatten(array) {
         }
         return newArray;
     }
+
+    console.log(flatten([1, 2, 3, [4, 5]])); // [1, 2, 3, 4, 5]
+    console.log(flatten([[1], [2]])); // [1, 2]
+    console.log(flatten([1, [2, [3, [4]], 5]])); // [1, 2, [3, [4]], 5]
