@@ -13,3 +13,8 @@ function createMatrix(n, m){
     }
     return newArray;
 }
+
+console.log(createMatrix(2, 2)); // [[0,0],[0,0]]
+console.log(createMatrix(3, 2)); // [[0,0,0],[0,0,0]]
+console.log(createMatrix(3, 4)); // [[0,0,0],[0,0,0],[0,0,0],[0,0,0]]
+console.log(createMatrix(5, 4)); // [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
