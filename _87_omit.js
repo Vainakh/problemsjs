@@ -11,3 +11,10 @@ function omit(object, keys){
     }
     return newObject;
 }
+
+var object = { 'a': 1, 'b': 2, 'c': 3 };
+console.log(omit(object, ['a', 'c'])); // { 'b': 2 }
+console.log(omit(object, ['b', 'c'])); // { 'a': 1 }
+
+console.log(omit(object, ['a', 'd'])); // { 'b': 2, 'c': 3 }
+console.log(omit(object, ['d', 'e', 'f'])); // { 'a': 1, 'b': 2, 'c': 3 }
