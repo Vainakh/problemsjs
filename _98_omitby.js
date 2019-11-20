@@ -1,0 +1,1 @@
+Write a function called omitBy which accepts an object and a callback function. This function should return an object with all the keys and values for which the values return falsey values when passed into the callback function.
