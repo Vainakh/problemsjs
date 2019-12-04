@@ -13,4 +13,4 @@ function onlyEvenValues(array) {
 }
 console.log(onlyEvenValues([1, 2, 3])); // [2]
 console.log(onlyEvenValues([5, 1, 2, 3, 10])); // [2,10]
-console.log(onlyEvenValues([1, 3, 5])); // []
+console.log(onlyEvenValues([1, 3, 5])); // []showFirstAndLast
