@@ -14,3 +14,12 @@ function vowelCount(str) {
     });
     return newObj;
 }
+
+vowelCount('Elie'); // {e:2,i:1}
+vowelCount('Michael'); // {a:1,e:1,i:1}
+vowelCount('Matt'); // {a:1}
+vowelCount('hmmm'); // {}
+vowelCount('I Am awesome and so are you');
+// {i: 1, a: 4, e: 3, o: 3, u: 1}
+
+Try to solve this using forEach.
