@@ -14,3 +14,26 @@ function filterByKey(array, key) {
     }
     return newarray;
 };
+
+filterByKey([
+  {num1: 3, num2: 5},
+  {num2: 4, num3: 1, num5: 1},
+  {num3: 3}
+], 'num3');
+// [
+//   {num2: 4, num3: 1, num5: 1},
+//   {num3: 3}
+// ]
+
+filterByKey([
+  {first: 'Elie', last:"Schoppik"},
+  {first: 'Matt', last:"Lane", isCatOwner: true},
+  {first: 'Michael', last:"Hueter"},
+  {first: 'Colt', last:"Steele", isCatOwner: true}
+],'isCatOwner');
+// [
+//   {first: 'Matt', last:"Lane", isCatOwner: true},
+//   {first: 'Colt', last:"Steele", isCatOwner: true}
+// ]
+
+Try to solve this using filter.
