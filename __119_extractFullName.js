@@ -10,3 +10,16 @@ function extractFullName(array){
         }
     return newarray;
 }
+
+extractFullName([
+  {first: 'Elie', last:"Schoppik"},
+  {first: 'Matt', last:"Lane"},
+  {first: 'Michael', last:"Hueter"}
+]); // ['Elie Schoppik', 'Matt Lane', 'Michael Hueter']
+
+extractFullName([
+  {first: "Amalie", middle: "Emmy", last: "Noether"},
+  {first: "Mary", middle: "Lucy", last: "Cartwright"},
+]); // ["Amalie Noether", "Mary Cartwright"]
+
+Try to solve this using map.
