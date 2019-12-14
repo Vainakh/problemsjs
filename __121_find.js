@@ -10,3 +10,6 @@ function find(array, value) {
         return undefined;
     }
 }
+
+console.log(find([1, 2, 3, 4, 5], 3)); // 3
+console.log(find([1, 2, 3, 4, 5], 10)); // undefined
