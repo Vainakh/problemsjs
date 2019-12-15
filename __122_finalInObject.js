@@ -12,3 +12,19 @@ function findInObj(array, key, value) {
     }
 }
 }
+
+var people = [
+  { firstName: "Matt", lastName: "Lane" },
+  { firstName: "Elie", lastName: "Schoppik" },
+  { firstName: "Michael", lastName: "Hueter" },
+  { firstName: "Michael", lastName: "Bolton" }
+];
+
+findInObj(people, "lastName", "Lane");
+// { firstName: "Matt", lastName: "Lane" }
+
+findInObj(people, "firstName", "Michael");
+// { firstName: "Michael", lastName: "Hueter" }
+
+findInObj(people, "firstName", "Tim"); // undefined
+findInObj(people, "notAKey", "notAValue"); // undefined
