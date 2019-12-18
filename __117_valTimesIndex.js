@@ -6,7 +6,7 @@ function valTimesIndex(array){
     let newArray = array.map(myFunction);
 
     function myFunction(num, i){
-
+extractKey
             return num * i;
     }
     return newArray;
