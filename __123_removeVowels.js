@@ -13,3 +13,7 @@ function removeVowels(string){
     });
     return modified.join("")
 }
+
+console.log(removeVowels('Elie')); // 'l'
+console.log(removeVowels('hELLO')); // 'hll'
+console.log(removeVowels('ZZZZZZ')); // 'zzzzzz'
