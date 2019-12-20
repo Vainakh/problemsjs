@@ -11,3 +11,6 @@ function hasAZero(number){
 
     return hasZero;
 }
+
+console.log(hasAZero(3332123213101232321)); // true
+console.log(hasAZero(1212121)); // false
