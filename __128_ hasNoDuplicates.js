@@ -5,4 +5,7 @@ Write a function called hasNoDuplicates which accepts an array and returns true 
   function hasNoDuplicates(array){
     let newarray = array.every((element, i, array) => i === array.indexOf(element));
     return newarray;
-} 
+}
+
+console.log(hasNoDuplicates([1, 2, 3, 1])); // false
+console.log(hasNoDuplicates([1, 2, 3])); // true
