@@ -8,3 +8,6 @@ function hasOnlyOddNumbers(array) {
     });
     return newarray;
 }
+
+console.log(hasOnlyOddNumbers([1, 3, 5, 7])); // true
+console.log(hasOnlyOddNumbers([1, 2, 3, 5, 7])); // false
