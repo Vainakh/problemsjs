@@ -10,3 +10,8 @@ function sumLessThan(array, number){
     }
     return sum;
 }
+
+
+console.log(sumLessThan([1, 2, 3, 4, 5], 4)); // 6
+console.log(sumLessThan([5, 3, 10, 7], 100)); // 25
+console.log(sumLessThan([2, 2, 2], 1)); // 0
