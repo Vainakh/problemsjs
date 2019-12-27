@@ -11,3 +11,14 @@ function extractValue(array, key){
 
     return newarray;
 }
+
+var arr = [
+    { firstName: 'Elie', lastName: 'Schoppik' },
+    { firstName: 'Matt', lastName: 'Lane', dogOwner: true },
+    { firstName: 'Michael', lastName: 'Hueter' }
+]
+
+console.log(extractValue(arr, 'firstName')); // ['Elie', 'Matt', 'Michael']
+console.log(extractValue(arr, 'lastName')); // ['Schoppik', 'Lane', 'Hueter']
+console.log(extractValue(arr, 'dogOwner')); // [true]
+console.log(extractValue(arr, 'ferretOwner')); // []
