@@ -9,3 +9,11 @@ function swap(array, num1, num2){
     array[num2] = temp;
     return array;
 }
+
+var arr = [1, 2, 3, 4]
+console.log(swap(arr, 0, 2)); // [3,2,1,4]
+console.log(arr); // [3,2,1,4]
+
+var arr2 = [5, 6, 8, 7]
+console.log(swap(arr2, 2, 3)); // [5,6,7,8]
+console.log(arr2); // [5,6,7,8]
