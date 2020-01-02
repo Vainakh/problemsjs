@@ -18,3 +18,18 @@ function validAnagram(string1, string2) {
 
         return sortedString1 === sortedString2;
 }
+
+Examples:
+
+validAnagram('', '') // true
+validAnagram('aaz', 'zza') // false
+validAnagram('anagram', 'nagaram') // true
+validAnagram("rat","car") // false) // false
+validAnagram('awesome', 'awesom') // false
+validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana') // false
+validAnagram('qwerty', 'qeywrt') // true
+validAnagram('texttwisttime', 'timetwisttext') // true
+
+Note: You may assume the string contains only lowercase characters.
+
+Bonus: If you used nested loops to solve this problem, try it without nested loops!
