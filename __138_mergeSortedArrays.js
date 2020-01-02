@@ -44,4 +44,4 @@ var arr5 = [3, 4, 5]
 var arr6 = [1, 2]
 
 
-console.log(mergeSortedArrays(arr5, arr6)); // [1,2,3,4,5]
+console.log(mergeSortedArrays(arr5, arr6)); // [1,2,3,4,5]Udemy
