@@ -28,3 +28,8 @@ function hammingDistance(string_1, string_2){
     }
     return difference;
 }
+
+console.log(hammingDistance("hello", "jello")); // 1
+console.log(hammingDistance("cool", "kewl")); // 3
+console.log(hammingDistance("sweet", "Sweet")); // 0
+console.log(hammingDistance("yoyo", "yoyoyo")); // "Input strings must have the same length."
